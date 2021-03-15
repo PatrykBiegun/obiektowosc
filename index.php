@@ -11,4 +11,4 @@ require_once 'config_credit.php';
 
 
 //podstawowa sciezka dla programu
-include _ROOT_PATH.'/app/credit_view.php';
+include _ROOT_PATH.'/app/calc_credit.php';
