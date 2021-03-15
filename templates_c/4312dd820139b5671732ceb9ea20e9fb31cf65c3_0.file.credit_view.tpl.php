@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-15 22:13:59
+/* Smarty version 3.1.39, created on 2021-03-15 22:23:58
   from 'F:\xxamp\htdocs\cw1\app\credit_view.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_604fce176b0078_10249672',
+  'unifunc' => 'content_604fd06ed92f20_53695100',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4312dd820139b5671732ceb9ea20e9fb31cf65c3' => 
     array (
       0 => 'F:\\xxamp\\htdocs\\cw1\\app\\credit_view.tpl',
-      1 => 1615842699,
+      1 => 1615843425,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_604fce176b0078_10249672 (Smarty_Internal_Template $_smarty_tpl) {
+function content_604fd06ed92f20_53695100 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -28,19 +28,19 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1198945810604fce1769a307_62766528', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_88868743604fd06ed7c316_48939937', 'content');
 ?>
 
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/main.tpl");
 }
 /* {block 'content'} */
-class Block_1198945810604fce1769a307_62766528 extends Smarty_Internal_Block
+class Block_88868743604fd06ed7c316_48939937 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_1198945810604fce1769a307_62766528',
+    0 => 'Block_88868743604fd06ed7c316_48939937',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -75,14 +75,15 @@ $_smarty_tpl->tpl_vars['msg']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['msg']->value) {
 $_smarty_tpl->tpl_vars['msg']->do_else = false;
 ?>
-		<li><?php echo $_smarty_tpl->tpl_vars['msg']->value;?>
-</li>
+		<div style="margin: 30px; padding: 5px; border-radius: 5px; background-color: #f55; width:400px;"><li><?php echo $_smarty_tpl->tpl_vars['msg']->value;?>
+</li></div>
+               
 		<?php
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 		
-	<?php }
-}?>
+	<?php }?> <br>
+<?php }?>
                                    
 <?php if ((isset($_smarty_tpl->tpl_vars['result']->value))) {?>
     
