@@ -2,7 +2,7 @@
 require_once dirname(__FILE__).'/../config_credit.php';
 
 
-require_once _ROOT_PATH.'/libs/Smarty.class.php';
+require_once $conf->root_path.'/libs/Smarty.class.php';
 //biorę parametry do obliczania
 
 function getParams(&$form){
@@ -85,14 +85,14 @@ if(validate($form,$messages)){
 
 $smarty = new Smarty();
 
-$smarty->assign('app_url',_APP_URL);
-$smarty->assign('root_path',_ROOT_PATH);
+$smarty->assign('app_url',$conf->app_url);
+$smarty->assign('root_path',$conf->root_path);
 
 $smarty->assign('form',$form);
 $smarty->assign('result',$result);
 $smarty->assign('messages',$messages);
 
 
-$smarty->display(_ROOT_PATH.'/app/credit_view.tpl');
+$smarty->display($conf->root_path.'/app/credit_view.tpl');
 
 
