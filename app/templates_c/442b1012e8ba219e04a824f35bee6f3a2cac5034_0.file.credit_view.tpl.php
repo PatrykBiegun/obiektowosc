@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-23 10:07:18
+/* Smarty version 3.1.39, created on 2021-03-23 10:12:57
   from 'F:\xxamp\htdocs\cw5\app\credit_view.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6059afc6a771d2_45616223',
+  'unifunc' => 'content_6059b1192516c2_14913782',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '26a8276306e41c3316600b32af8736abe19fe1f9' => 
+    '442b1012e8ba219e04a824f35bee6f3a2cac5034' => 
     array (
       0 => 'F:\\xxamp\\htdocs\\cw5\\app\\credit_view.tpl',
-      1 => 1616490431,
+      1 => 1616490766,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6059afc6a771d2_45616223 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6059b1192516c2_14913782 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -28,19 +28,19 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_18150100936059afc6a64b61_54054290', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1151083706059b1192435a4_90705949', 'content');
 ?>
 
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/main.tpl");
 }
 /* {block 'content'} */
-class Block_18150100936059afc6a64b61_54054290 extends Smarty_Internal_Block
+class Block_1151083706059b1192435a4_90705949 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_18150100936059afc6a64b61_54054290',
+    0 => 'Block_1151083706059b1192435a4_90705949',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -87,7 +87,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 	<?php }?> <br>
 
                <?php if ($_smarty_tpl->tpl_vars['messages']->value->isInfo()) {?> 
-			<h4>Informacje: </h4>
+			<h4>Informacje:</h4>
 
 		
 		<?php
@@ -113,8 +113,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
    </div><br>
 <?php }?>
 
-</div>
-</div>
+
 
 <?php
 }
